@@ -1,0 +1,255 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: #0A0A0F;
+    --color-bg-card: #13131A;
+    --color-bg-elevated: #1A1A24;
+    --color-border: #1E1E2E;
+    --color-border-bright: #2E2E42;
+    --color-primary: #FF3B3B;
+    --color-secondary: #7C3AED;
+    --color-accent: #F59E0B;
+    --color-text: #FFFFFF;
+    --color-muted: #6B7280;
+    scroll-behavior: smooth;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: rgba(124, 58, 237, 0.4);
+    color: #fff;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-bg);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-border-bright);
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-muted);
+  }
+}
+
+@layer components {
+  .glass {
+    background: rgba(19, 19, 26, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .glass-bright {
+    background: rgba(26, 26, 36, 0.9);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #FF3B3B 0%, #FF6B6B 40%, #A78BFA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-text-gold {
+    background: linear-gradient(135deg, #F59E0B 0%, #FCD34D 50%, #F59E0B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glow-primary {
+    box-shadow: 0 0 20px rgba(255, 59, 59, 0.3), 0 0 60px rgba(255, 59, 59, 0.1);
+  }
+
+  .glow-secondary {
+    box-shadow: 0 0 20px rgba(124, 58, 237, 0.3), 0 0 60px rgba(124, 58, 237, 0.1);
+  }
+
+  .glow-accent {
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.3), 0 0 60px rgba(245, 158, 11, 0.1);
+  }
+
+  .dot-grid-bg {
+    background-image: radial-gradient(circle, #1E1E2E 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  .hero-glow {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    pointer-events: none;
+  }
+
+  .btn-primary {
+    @apply relative inline-flex items-center gap-2 px-8 py-4 rounded-2xl font-semibold text-white transition-all duration-300 overflow-hidden;
+    background: linear-gradient(135deg, #FF3B3B, #CC2020);
+    box-shadow: 0 4px 20px rgba(255, 59, 59, 0.3);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(255, 59, 59, 0.5);
+  }
+
+  .btn-primary:active {
+    transform: translateY(0);
+  }
+
+  .btn-secondary {
+    @apply relative inline-flex items-center gap-2 px-8 py-4 rounded-2xl font-semibold text-white transition-all duration-300;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+  }
+
+  .card-hover {
+    @apply transition-all duration-300;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255, 59, 59, 0.3);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(255, 59, 59, 0.05);
+  }
+
+  .match-bar {
+    height: 6px;
+    border-radius: 3px;
+    background: var(--color-border);
+    overflow: hidden;
+  }
+
+  .match-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    background: linear-gradient(90deg, #FF3B3B, #7C3AED);
+    transition: width 1.5s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  .quiz-option {
+    @apply relative cursor-pointer rounded-2xl p-5 transition-all duration-200 select-none;
+    background: var(--color-bg-card);
+    border: 2px solid var(--color-border);
+  }
+
+  .quiz-option:hover {
+    border-color: rgba(255, 59, 59, 0.4);
+    background: var(--color-bg-elevated);
+  }
+
+  .quiz-option.selected {
+    border-color: #FF3B3B;
+    background: rgba(255, 59, 59, 0.08);
+    box-shadow: 0 0 0 1px rgba(255, 59, 59, 0.3), 0 8px 32px rgba(255, 59, 59, 0.1);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Logo hover shimmer */
+@keyframes logo-shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.logo-text {
+  background: linear-gradient(
+    90deg,
+    #FF3B3B 0%,
+    #FF6B6B 20%,
+    #A78BFA 40%,
+    #FF6B6B 60%,
+    #FF3B3B 80%,
+    #FF6B6B 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.logo-text:hover {
+  animation: logo-shimmer 2s linear infinite;
+}
+
+/* Orb animations */
+@keyframes orb-1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -20px) scale(1.05); }
+  66% { transform: translate(-20px, 15px) scale(0.95); }
+}
+
+@keyframes orb-2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(-25px, 20px) scale(0.95); }
+  66% { transform: translate(20px, -15px) scale(1.05); }
+}
+
+.orb-1 { animation: orb-1 12s ease-in-out infinite; }
+.orb-2 { animation: orb-2 15s ease-in-out infinite; }
+
+/* Number counter animation */
+@keyframes count-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Featured scroll */
+.creators-scroll {
+  animation: scroll-left 40s linear infinite;
+}
+
+.creators-scroll:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
