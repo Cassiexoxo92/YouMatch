@@ -113,14 +113,14 @@ export const kanalDerWocheList: KanalDerWocheEntry[] = [
   {
     id:          'walulis',
     name:        'Walulis sieht fern',
-    handle:      '@WalulisYT',
+    handle:      '@_Walulis',
     themen:      ['Medienkritik', 'Fernsehen', 'Werbung'],
     stil:        'Satirische Analysen — lustig und gleichzeitig erschreckend akkurat',
     warum:       'Weil du danach nie wieder Werbung oder Talkshows gleich anschauen wirst.',
     description: 'Walulis seziert deutsche TV-Formate mit chirurgischer Präzision und trockenem Humor. Wie Talkshows Stimmung machen. Wie Werbung uns manipuliert. Wie Fernsehen Realität konstruiert — alles erklärt, bis du nie wieder unschuldig durch Programme zappst.',
     abonnenten:  '~625K',
-    url:         'https://www.youtube.com/@WalulisYT',
-    imageUrl:    'https://unavatar.io/youtube/WalulisYT',
+    url:         'https://www.youtube.com/@_Walulis',
+    imageUrl:    'https://unavatar.io/youtube/_Walulis',
     color:       '#F87171',
   },
   {
