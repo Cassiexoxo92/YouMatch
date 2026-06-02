@@ -39,10 +39,10 @@ const links = [
     featured: false,
   },
   {
-    href: '#impressum',
+    href: '/impressum',
     icon: Info,
     label: 'Impressum & Datenschutz',
-    description: 'DSGVO-konform. Kein Tracking, keine Cookies.',
+    description: 'DSGVO-konform nach DDG. Kein Tracking, keine Cookies.',
     color: '#6B7280',
     featured: false,
   },
