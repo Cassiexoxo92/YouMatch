@@ -1,32 +1,76 @@
+'use client'
+
+import Image from 'next/image'
+import { useState } from 'react'
 import { getInitials } from '@/lib/utils'
 
 interface ChannelAvatarProps {
   name: string
+  handle: string
   color: string
   secondaryColor: string
   size?: 'sm' | 'md' | 'lg'
 }
 
-const sizeMap = {
-  sm: { container: 'w-10 h-10', text: 'text-sm' },
-  md: { container: 'w-14 h-14', text: 'text-lg' },
-  lg: { container: 'w-20 h-20', text: 'text-2xl' },
+const SIZE_MAP = {
+  sm: { px: 40,  text: 'text-sm',  rounded: 'rounded-xl' },
+  md: { px: 56,  text: 'text-lg',  rounded: 'rounded-2xl' },
+  lg: { px: 80,  text: 'text-2xl', rounded: 'rounded-2xl' },
 }
 
-export default function ChannelAvatar({ name, color, secondaryColor, size = 'md' }: ChannelAvatarProps) {
-  const { container, text } = sizeMap[size]
-  const initials = getInitials(name)
+export default function ChannelAvatar({
+  name,
+  handle,
+  color,
+  secondaryColor,
+  size = 'md',
+}: ChannelAvatarProps) {
+  const [imgError, setImgError] = useState(false)
+  const { px, text, rounded } = SIZE_MAP[size]
+  const initials  = getInitials(name)
+  const cleanHandle = handle.replace('@', '')
+  const avatarSrc   = `https://unavatar.io/youtube/${cleanHandle}`
 
   return (
     <div
-      className={`${container} rounded-2xl flex items-center justify-center font-display font-bold ${text} flex-shrink-0`}
+      className={`${rounded} flex-shrink-0 overflow-hidden relative`}
       style={{
-        background: `linear-gradient(135deg, ${color}, ${secondaryColor})`,
+        width:     px,
+        height:    px,
+        minWidth:  px,
+        background: imgError
+          ? `linear-gradient(135deg, ${color}, ${secondaryColor})`
+          : undefined,
         boxShadow: `0 4px 16px ${color}40`,
       }}
       aria-hidden="true"
     >
-      {initials}
+      {!imgError ? (
+        <>
+          {/* Gradient placeholder shown behind image while loading */}
+          <div
+            className={`absolute inset-0 ${rounded} flex items-center justify-center font-display font-bold ${text}`}
+            style={{ background: `linear-gradient(135deg, ${color}, ${secondaryColor})` }}
+          >
+            {initials}
+          </div>
+          <Image
+            src={avatarSrc}
+            alt={`${name} YouTube-Kanal`}
+            width={px}
+            height={px}
+            className={`relative w-full h-full object-cover ${rounded}`}
+            onError={() => setImgError(true)}
+            unoptimized
+          />
+        </>
+      ) : (
+        <div
+          className={`w-full h-full flex items-center justify-center font-display font-bold ${text}`}
+        >
+          {initials}
+        </div>
+      )}
     </div>
   )
 }

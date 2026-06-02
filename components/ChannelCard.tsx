@@ -81,6 +81,7 @@ export default function ChannelCard({ channel, rank, delay = 0 }: ChannelCardPro
       <div className="flex items-center gap-4 mb-5">
         <ChannelAvatar
           name={channel.name}
+          handle={channel.handle}
           color={channel.color}
           secondaryColor={channel.secondaryColor}
           size="lg"
