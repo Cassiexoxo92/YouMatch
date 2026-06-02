@@ -1,13 +1,20 @@
-export type EnergyOption = 'couch' | 'aktiv' | 'nebenbei' | 'fokus'
+// Q1: Welches Thema zieht dich gerade an?
+export type ThemaOption = 'lachen' | 'news' | 'kultur' | 'alltag'
+
+// Q2: Was willst du aus dem Video mitnehmen?
 export type GoalOption = 'unterhalten' | 'lernen' | 'inspiriert' | 'abschalten'
+
+// Q3: Welches Format spricht dich an?
 export type FormatOption = 'doku' | 'talk' | 'entertainment' | 'tutorial'
-export type TimeOption = 'kurz' | 'mittel' | 'lang' | 'egal'
+
+// Q4: Wie willst du YouTube gerade nutzen?
+export type StilOption = 'clips' | 'nebenbei' | 'schauen' | 'deepdive'
 
 export interface QuizAnswers {
-  energy: EnergyOption
-  goal: GoalOption
+  thema:  ThemaOption
+  goal:   GoalOption
   format: FormatOption
-  time: TimeOption
+  stil:   StilOption
 }
 
 export interface Channel {
@@ -22,10 +29,10 @@ export interface Channel {
   color: string
   secondaryColor: string
   tags: {
-    energy: EnergyOption[]
-    goal: GoalOption[]
+    thema:  ThemaOption[]
+    goal:   GoalOption[]
     format: FormatOption[]
-    time: TimeOption[]
+    stil:   StilOption[]
   }
 }
 

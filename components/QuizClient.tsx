@@ -52,7 +52,7 @@ export default function QuizClient() {
       setSelected(null)
     } else {
       const a = newAnswers as QuizAnswers
-      router.push(`/results?e=${a.energy}&g=${a.goal}&f=${a.format}&t=${a.time}`)
+      router.push(`/results?e=${a.thema}&g=${a.goal}&f=${a.format}&t=${a.stil}`)
     }
   }, [selected, answers, current.id, step, router])
 

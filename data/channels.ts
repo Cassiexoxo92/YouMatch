@@ -12,7 +12,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Gronkh',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['lang', 'egal'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'kurzgesagt',
@@ -25,7 +25,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@KurzgesagtDE',
     color: '#0ea5e9',
     secondaryColor: '#0284c7',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['doku'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'mrwissen2go',
@@ -38,7 +38,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@MrWissen2go',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['doku', 'talk'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku', 'talk'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'simplicissimus',
@@ -51,7 +51,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Simplicissimus',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['fokus'], goal: ['lernen', 'inspiriert'], format: ['doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku'], stil: ['schauen'] },
   },
   {
     id: 'rezo',
@@ -64,7 +64,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@rezo',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['doku', 'entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku', 'entertainment'], stil: ['schauen', 'deepdive'] },
   },
   {
     id: 'montana-black',
@@ -77,7 +77,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@MontanaBlack',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['lang', 'egal'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'handofblood',
@@ -90,7 +90,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@HandOfBlood',
     color: '#be123c',
     secondaryColor: '#9f1239',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['deepdive'] },
   },
   {
     id: 'fest-flauschig',
@@ -103,7 +103,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@FestundFlauschig',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['talk'], time: ['lang'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'abschalten'], format: ['talk'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'rocket-beans',
@@ -116,7 +116,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@RocketBeansTV',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['talk', 'entertainment'], time: ['lang', 'egal'] },
+    tags: { thema: ['lachen', 'alltag'], goal: ['unterhalten', 'abschalten'], format: ['talk', 'entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'terra-x',
@@ -129,7 +129,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@TerraXLeschundCo',
     color: '#2563eb',
     secondaryColor: '#1d4ed8',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen', 'inspiriert'], format: ['doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku'], stil: ['schauen'] },
   },
   {
     id: 'y-kollektiv',
@@ -142,7 +142,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@YKollektiv',
     color: '#7c3aed',
     secondaryColor: '#6d28d9',
-    tags: { energy: ['fokus'], goal: ['lernen', 'inspiriert'], format: ['doku'], time: ['mittel', 'lang'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku'], stil: ['schauen', 'deepdive'] },
   },
   {
     id: 'jung-naiv',
@@ -155,7 +155,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@JungNaiv',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['fokus'], goal: ['lernen', 'inspiriert'], format: ['talk'], time: ['lang'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['talk'], stil: ['nebenbei', 'schauen', 'deepdive'] },
   },
   {
     id: 'julien-bam',
@@ -168,7 +168,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@JulienBam',
     color: '#d97706',
     secondaryColor: '#b45309',
-    tags: { energy: ['aktiv', 'couch'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips'] },
   },
   {
     id: 'pamela-reif',
@@ -181,7 +181,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@PamelaReif',
     color: '#e11d48',
     secondaryColor: '#be123c',
-    tags: { energy: ['aktiv'], goal: ['inspiriert'], format: ['tutorial'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['kultur'], goal: ['inspiriert'], format: ['tutorial'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'pietsmiet',
@@ -194,7 +194,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@PietSmiet',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'trymacs',
@@ -207,7 +207,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Trymacs',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'knossi',
@@ -220,7 +220,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Knossi',
     color: '#c2410c',
     secondaryColor: '#9a3412',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['lang', 'egal'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'apecrime',
@@ -233,7 +233,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@ApeCrime',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'inscope21',
@@ -246,7 +246,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@inscope21',
     color: '#d97706',
     secondaryColor: '#b45309',
-    tags: { energy: ['couch'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'coldmirror',
@@ -259,7 +259,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Coldmirror',
     color: '#0284c7',
     secondaryColor: '#0369a1',
-    tags: { energy: ['couch'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'mailab',
@@ -272,7 +272,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@maiLab',
     color: '#8b5cf6',
     secondaryColor: '#7c3aed',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku'], stil: ['schauen'] },
   },
   {
     id: 'breaking-lab',
@@ -285,7 +285,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@BreakingLab',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['doku', 'tutorial'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku', 'tutorial'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'strg-f',
@@ -298,7 +298,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@strg_f',
     color: '#1d4ed8',
     secondaryColor: '#1e40af',
-    tags: { energy: ['fokus'], goal: ['lernen', 'inspiriert'], format: ['doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku'], stil: ['schauen'] },
   },
   {
     id: 'quarks',
@@ -311,7 +311,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@quarks',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen'], format: ['doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen'], format: ['doku'], stil: ['schauen'] },
   },
   {
     id: 'funk',
@@ -324,7 +324,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@funk',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['doku', 'talk'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku', 'talk'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'datteltaeter',
@@ -337,7 +337,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/channel/UCF_oOFgq8qwi7HRGTJSsZ-g',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'lernen'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'lernen'], format: ['entertainment'], stil: ['clips'] },
   },
   {
     id: 'sturmwaffel',
@@ -350,7 +350,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Sturmwaffel',
     color: '#6d28d9',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'dner',
@@ -363,7 +363,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@DNER',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'gemischtes-hack',
@@ -376,7 +376,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@GemischtesHack',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['talk'], time: ['lang'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'abschalten'], format: ['talk'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'hotel-matze',
@@ -389,7 +389,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@HotelMatze',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['talk'], time: ['lang'] },
+    tags: { thema: ['alltag'], goal: ['lernen', 'inspiriert'], format: ['talk'], stil: ['nebenbei', 'schauen', 'deepdive'] },
   },
   {
     id: 'finanzfluss',
@@ -402,7 +402,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Finanzfluss',
     color: '#0ea5e9',
     secondaryColor: '#0284c7',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen', 'inspiriert'], format: ['tutorial', 'doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['tutorial', 'doku'], stil: ['schauen'] },
   },
   {
     id: 'papaplatte',
@@ -415,7 +415,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Papaplatte',
     color: '#7c3aed',
     secondaryColor: '#6d28d9',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'simon-unge',
@@ -428,7 +428,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@SimonUnge',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'lefloid',
@@ -441,7 +441,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@LeFloid',
     color: '#2563eb',
     secondaryColor: '#1d4ed8',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'unterhalten'], format: ['talk', 'doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'unterhalten'], format: ['talk', 'doku'], stil: ['nebenbei', 'schauen'] },
   },
   {
     id: 'bibi',
@@ -454,7 +454,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@BibisBeautyPalace',
     color: '#db2777',
     secondaryColor: '#be185d',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'dagi-bee',
@@ -467,7 +467,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@DagiBee',
     color: '#db2777',
     secondaryColor: '#be185d',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'sami-slimani',
@@ -480,7 +480,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@SamiSlimani',
     color: '#1d4ed8',
     secondaryColor: '#1e40af',
-    tags: { energy: ['aktiv', 'couch'], goal: ['inspiriert', 'unterhalten'], format: ['entertainment', 'tutorial'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['alltag'], goal: ['inspiriert', 'unterhalten'], format: ['entertainment', 'tutorial'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'kelly-missesvlog',
@@ -493,7 +493,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@KellyMissesVlog',
     color: '#be185d',
     secondaryColor: '#9d174d',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'fynn-kliemann',
@@ -506,7 +506,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@FynnKliemann',
     color: '#92400e',
     secondaryColor: '#78350f',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['inspiriert', 'lernen'], format: ['doku', 'tutorial'], time: ['mittel'] },
+    tags: { thema: ['kultur'], goal: ['inspiriert', 'lernen'], format: ['doku', 'tutorial'], stil: ['schauen'] },
   },
   {
     id: 'jan-boehmermann',
@@ -519,7 +519,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@ZDFMagazinRoyale',
     color: '#1d4ed8',
     secondaryColor: '#1e40af',
-    tags: { energy: ['fokus', 'couch'], goal: ['unterhalten', 'lernen'], format: ['entertainment', 'doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['unterhalten', 'lernen'], format: ['entertainment', 'doku'], stil: ['schauen'] },
   },
   {
     id: 'concrafter',
@@ -532,7 +532,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Concrafter',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'sparkofphoenix',
@@ -545,7 +545,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@SparkofPhoenix',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['couch', 'fokus'], goal: ['unterhalten', 'lernen'], format: ['tutorial', 'entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'lernen'], format: ['tutorial', 'entertainment'], stil: ['schauen', 'deepdive'] },
   },
   {
     id: 'arte-de',
@@ -558,7 +558,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@arte',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen', 'inspiriert'], format: ['doku'], time: ['mittel', 'lang'] },
+    tags: { thema: ['alltag'], goal: ['lernen', 'inspiriert'], format: ['doku'], stil: ['schauen', 'deepdive'] },
   },
   {
     id: 'sallys-welt',
@@ -571,7 +571,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@SallysWelt',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['aktiv', 'couch'], goal: ['lernen', 'unterhalten'], format: ['tutorial'], time: ['mittel'] },
+    tags: { thema: ['kultur'], goal: ['lernen', 'unterhalten'], format: ['tutorial'], stil: ['schauen'] },
   },
   {
     id: 'the-morpheus',
@@ -584,7 +584,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@TheMorpheusTutorials',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['fokus'], goal: ['lernen'], format: ['tutorial'], time: ['mittel', 'lang'] },
+    tags: { thema: ['news'], goal: ['lernen'], format: ['tutorial'], stil: ['schauen', 'deepdive'] },
   },
   {
     id: 'mrbeast-de',
@@ -597,7 +597,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@MrBeastGermany',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['aktiv', 'couch'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'reved',
@@ -610,7 +610,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Reved',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'mois',
@@ -623,7 +623,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@MoisTv',
     color: '#1d4ed8',
     secondaryColor: '#1e40af',
-    tags: { energy: ['aktiv', 'couch'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'talk'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'talk'], stil: ['clips'] },
   },
   {
     id: 'yoga-mady',
@@ -636,7 +636,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@YogaMitMady',
     color: '#db2777',
     secondaryColor: '#be185d',
-    tags: { energy: ['couch', 'aktiv'], goal: ['abschalten', 'inspiriert'], format: ['tutorial'], time: ['mittel'] },
+    tags: { thema: ['kultur'], goal: ['abschalten', 'inspiriert'], format: ['tutorial'], stil: ['schauen'] },
   },
   {
     id: 'phil-laude',
@@ -649,7 +649,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@PhilLaude',
     color: '#d97706',
     secondaryColor: '#b45309',
-    tags: { energy: ['couch'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips'] },
   },
   {
     id: 'galileo',
@@ -662,7 +662,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Galileo',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['aktiv', 'nebenbei'], goal: ['lernen', 'unterhalten'], format: ['doku', 'entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['alltag'], goal: ['lernen', 'unterhalten'], format: ['doku', 'entertainment'], stil: ['clips', 'nebenbei', 'schauen'] },
   },
   {
     id: 'chip-online',
@@ -675,7 +675,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@CHIPonline',
     color: '#2563eb',
     secondaryColor: '#1d4ed8',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen'], format: ['doku', 'tutorial'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen'], format: ['doku', 'tutorial'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'gamestar',
@@ -688,7 +688,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@GameStar',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'unterhalten'], format: ['doku', 'entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen', 'news'], goal: ['lernen', 'unterhalten'], format: ['doku', 'entertainment'], stil: ['schauen'] },
   },
   {
     id: 'ndr',
@@ -701,7 +701,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@NDR',
     color: '#1d4ed8',
     secondaryColor: '#1e40af',
-    tags: { energy: ['fokus'], goal: ['lernen', 'inspiriert'], format: ['doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku'], stil: ['schauen'] },
   },
   {
     id: 'svenja-hiro',
@@ -714,7 +714,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@SvenjaHiro',
     color: '#8b5cf6',
     secondaryColor: '#7c3aed',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['inspiriert', 'lernen'], format: ['talk', 'tutorial'], time: ['mittel'] },
+    tags: { thema: ['kultur'], goal: ['inspiriert', 'lernen'], format: ['talk', 'tutorial'], stil: ['nebenbei', 'schauen'] },
   },
   {
     id: 'einfach-lorenz',
@@ -727,7 +727,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@EinfachLorenz',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'zdfneo',
@@ -740,7 +740,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@ZDFneo',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'plan-b',
@@ -753,7 +753,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@planb_zdf',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku'], stil: ['schauen'] },
   },
   {
     id: 'precht',
@@ -766,7 +766,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@PRECHTofficial',
     color: '#1d4ed8',
     secondaryColor: '#1e40af',
-    tags: { energy: ['fokus'], goal: ['lernen', 'inspiriert'], format: ['talk', 'doku'], time: ['lang'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['talk', 'doku'], stil: ['nebenbei', 'schauen', 'deepdive'] },
   },
   {
     id: 'olympia-de',
@@ -779,7 +779,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@TeamDeutschland',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['inspiriert', 'unterhalten'], format: ['doku', 'entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['kultur'], goal: ['inspiriert', 'unterhalten'], format: ['doku', 'entertainment'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'nico-rosberg',
@@ -792,7 +792,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@NicoRosberg',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['inspiriert', 'lernen'], format: ['doku', 'talk'], time: ['mittel'] },
+    tags: { thema: ['kultur'], goal: ['inspiriert', 'lernen'], format: ['doku', 'talk'], stil: ['nebenbei', 'schauen'] },
   },
   {
     id: 'doktor-allwissend',
@@ -805,7 +805,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@DoktorAllwissend',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['doku', 'tutorial'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku', 'tutorial'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'tim-maelzer',
@@ -818,7 +818,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@TimMaelzer',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment', 'tutorial'], time: ['mittel'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'abschalten'], format: ['entertainment', 'tutorial'], stil: ['schauen'] },
   },
   {
     id: 'oel',
@@ -831,7 +831,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@ElHotzo',
     color: '#6b7280',
     secondaryColor: '#4b5563',
-    tags: { energy: ['couch'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips'] },
   },
   {
     id: 'luca-lenz',
@@ -844,7 +844,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@LucaLenz',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['aktiv', 'couch'], goal: ['inspiriert', 'unterhalten'], format: ['doku', 'entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['alltag'], goal: ['inspiriert', 'unterhalten'], format: ['doku', 'entertainment'], stil: ['schauen', 'deepdive'] },
   },
   {
     id: 'tobias-beck',
@@ -857,7 +857,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@TobiasBeck',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['inspiriert'], format: ['talk', 'entertainment'], time: ['mittel'] },
+    tags: { thema: ['kultur'], goal: ['inspiriert'], format: ['talk', 'entertainment'], stil: ['nebenbei', 'schauen'] },
   },
   {
     id: 'netzpolitik',
@@ -870,7 +870,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@netzpolitik_org',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['fokus'], goal: ['lernen', 'inspiriert'], format: ['doku', 'talk'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku', 'talk'], stil: ['nebenbei', 'schauen'] },
   },
   {
     id: 'planet-wissen',
@@ -883,7 +883,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@PlanetWissen',
     color: '#2563eb',
     secondaryColor: '#1d4ed8',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen'], format: ['doku', 'talk'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen'], format: ['doku', 'talk'], stil: ['nebenbei', 'schauen'] },
   },
   {
     id: 'odysso',
@@ -896,7 +896,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@odysso',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['doku'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'schulstunde',
@@ -909,7 +909,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@DieSchulstunde',
     color: '#4f46e5',
     secondaryColor: '#4338ca',
-    tags: { energy: ['fokus'], goal: ['lernen'], format: ['tutorial', 'doku'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen'], format: ['tutorial', 'doku'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'nico-suave',
@@ -922,7 +922,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@nicosuaveofficial',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'lernen'], format: ['entertainment', 'talk'], time: ['mittel'] },
+    tags: { thema: ['lachen', 'alltag'], goal: ['unterhalten', 'lernen'], format: ['entertainment', 'talk'], stil: ['nebenbei'] },
   },
   {
     id: 'olis-kanal',
@@ -935,7 +935,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@OlisKanalauftritt',
     color: '#92400e',
     secondaryColor: '#78350f',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['tutorial'], time: ['mittel'] },
+    tags: { thema: ['kultur'], goal: ['lernen', 'inspiriert'], format: ['tutorial'], stil: ['schauen'] },
   },
   {
     id: 'lootato',
@@ -948,7 +948,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Lootato',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips', 'nebenbei'] },
   },
   {
     id: 'crash-course-de',
@@ -961,7 +961,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@CrashCourseDE',
     color: '#2563eb',
     secondaryColor: '#1d4ed8',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen'], format: ['tutorial', 'doku'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen'], format: ['tutorial', 'doku'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'kochen-mit-martina',
@@ -974,7 +974,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@KochenmitMartinaMoritz',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['couch', 'aktiv'], goal: ['lernen', 'abschalten'], format: ['tutorial'], time: ['mittel'] },
+    tags: { thema: ['kultur'], goal: ['lernen', 'abschalten'], format: ['tutorial'], stil: ['schauen'] },
   },
   {
     id: 'gameone',
@@ -987,7 +987,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@GameOneTV',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'unterhalten'], format: ['entertainment', 'doku'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['lernen', 'unterhalten'], format: ['entertainment', 'doku'], stil: ['schauen'] },
   },
   {
     id: 'tilo-jung',
@@ -1000,7 +1000,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@TiloJung',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['fokus'], goal: ['lernen'], format: ['talk'], time: ['lang', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen'], format: ['talk'], stil: ['nebenbei', 'schauen', 'deepdive'] },
   },
   {
     id: 'sophiethiel',
@@ -1013,7 +1013,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@SophiaThiel',
     color: '#db2777',
     secondaryColor: '#be185d',
-    tags: { energy: ['aktiv'], goal: ['inspiriert', 'lernen'], format: ['tutorial', 'talk'], time: ['mittel'] },
+    tags: { thema: ['kultur'], goal: ['inspiriert', 'lernen'], format: ['tutorial', 'talk'], stil: ['nebenbei', 'schauen'] },
   },
   {
     id: 'welt-dokus',
@@ -1026,7 +1026,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@WELTDokus',
     color: '#1d4ed8',
     secondaryColor: '#1e40af',
-    tags: { energy: ['fokus'], goal: ['lernen', 'inspiriert'], format: ['doku'], time: ['mittel', 'lang'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku'], stil: ['schauen', 'deepdive'] },
   },
   {
     id: 'akte',
@@ -1039,7 +1039,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@AKTEonline',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['fokus', 'couch'], goal: ['unterhalten', 'lernen'], format: ['doku'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'lernen'], format: ['doku'], stil: ['schauen'] },
   },
   {
     id: 'bjorn-tantau',
@@ -1052,7 +1052,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@BjornTantau',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen', 'inspiriert'], format: ['tutorial', 'talk'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['lernen', 'inspiriert'], format: ['tutorial', 'talk'], stil: ['nebenbei', 'schauen'] },
   },
   {
     id: 'taddl',
@@ -1065,7 +1065,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Taddl',
     color: '#6b7280',
     secondaryColor: '#4b5563',
-    tags: { energy: ['couch'], goal: ['unterhalten', 'abschalten'], format: ['entertainment', 'talk'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'abschalten'], format: ['entertainment', 'talk'], stil: ['nebenbei'] },
   },
   {
     id: 'glp',
@@ -1078,7 +1078,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@GLPGermanLetsPlay',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'bayernchemie',
@@ -1091,7 +1091,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@ChemieEinfachErklaert',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['fokus'], goal: ['lernen'], format: ['tutorial'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen'], format: ['tutorial'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'der-spiegel',
@@ -1104,7 +1104,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@DerSpiegel',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen'], format: ['doku'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen'], format: ['doku'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'turnt',
@@ -1117,7 +1117,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@TurntDE',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['aktiv', 'couch'], goal: ['unterhalten', 'lernen'], format: ['entertainment', 'doku'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'lernen'], format: ['entertainment', 'doku'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'brainiac',
@@ -1130,7 +1130,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@BrainiacDE',
     color: '#8b5cf6',
     secondaryColor: '#7c3aed',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['doku'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'flugzeugspotter',
@@ -1143,7 +1143,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@DerPilotYT',
     color: '#2563eb',
     secondaryColor: '#1d4ed8',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['doku', 'tutorial'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['lernen', 'inspiriert'], format: ['doku', 'tutorial'], stil: ['schauen'] },
   },
   {
     id: 'klaudia-mit-k',
@@ -1156,7 +1156,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@KlaudiamitK',
     color: '#db2777',
     secondaryColor: '#be185d',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'franziska-schoenwetter',
@@ -1169,7 +1169,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@FranziskaSchoenw',
     color: '#db2777',
     secondaryColor: '#be185d',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'inspiriert'], format: ['tutorial', 'entertainment'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'inspiriert'], format: ['tutorial', 'entertainment'], stil: ['nebenbei', 'schauen'] },
   },
   {
     id: 'thomas-mangold',
@@ -1182,7 +1182,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@ThomasMangold',
     color: '#4f46e5',
     secondaryColor: '#4338ca',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen'], format: ['tutorial'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['alltag'], goal: ['lernen'], format: ['tutorial'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'kanzlei-woehrl',
@@ -1195,7 +1195,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@KanzleiWBS',
     color: '#1d4ed8',
     secondaryColor: '#1e40af',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen'], format: ['tutorial', 'talk'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen'], format: ['tutorial', 'talk'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'aktien-mit-kopf',
@@ -1208,7 +1208,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@AktienmitKopf',
     color: '#0ea5e9',
     secondaryColor: '#0284c7',
-    tags: { energy: ['fokus'], goal: ['lernen'], format: ['tutorial', 'doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen'], format: ['tutorial', 'doku'], stil: ['schauen'] },
   },
   {
     id: 'torsten-seo',
@@ -1221,7 +1221,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@WalulisYT',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'unterhalten'], format: ['doku', 'entertainment'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'unterhalten'], format: ['doku', 'entertainment'], stil: ['schauen'] },
   },
   {
     id: 'schoenheitsklinik',
@@ -1234,7 +1234,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@MachbarkeitsBaukasten',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['doku', 'tutorial'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku', 'tutorial'], stil: ['schauen'] },
   },
 
   // ── Musik / Rap ────────────────────────────────────────────────────────────
@@ -1249,7 +1249,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@CapitalBra',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['aktiv', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
   {
     id: 'apache-207',
@@ -1262,7 +1262,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Apache207',
     color: '#1d4ed8',
     secondaryColor: '#1e40af',
-    tags: { energy: ['aktiv', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
   {
     id: 'kontra-k',
@@ -1275,7 +1275,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@KontraK',
     color: '#374151',
     secondaryColor: '#1f2937',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['inspiriert', 'abschalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['inspiriert', 'abschalten'], format: ['entertainment'], stil: ['clips', 'schauen', 'deepdive'] },
   },
   {
     id: 'bausa',
@@ -1288,7 +1288,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@BAUSA',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['aktiv', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
   {
     id: 'raf-camora',
@@ -1301,7 +1301,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@RAFCamora',
     color: '#1e3a5f',
     secondaryColor: '#1e40af',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['abschalten', 'unterhalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['abschalten', 'unterhalten'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
   {
     id: 'bonez-mc',
@@ -1314,7 +1314,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@BonezMC',
     color: '#111827',
     secondaryColor: '#374151',
-    tags: { energy: ['aktiv', 'nebenbei'], goal: ['abschalten', 'unterhalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['abschalten', 'unterhalten'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
   {
     id: 'cro',
@@ -1327,7 +1327,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Cro',
     color: '#111827',
     secondaryColor: '#374151',
-    tags: { energy: ['couch', 'aktiv', 'nebenbei'], goal: ['abschalten', 'unterhalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['abschalten', 'unterhalten'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
   {
     id: 'sido',
@@ -1340,7 +1340,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Sido',
     color: '#374151',
     secondaryColor: '#111827',
-    tags: { energy: ['aktiv', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
   {
     id: 'summer-cem',
@@ -1353,7 +1353,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@SummerCem',
     color: '#d97706',
     secondaryColor: '#b45309',
-    tags: { energy: ['aktiv', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
   {
     id: 'helene-fischer',
@@ -1366,7 +1366,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@HeleneFischer',
     color: '#db2777',
     secondaryColor: '#9d174d',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['abschalten', 'unterhalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['abschalten', 'unterhalten'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
   {
     id: 'mark-forster',
@@ -1379,7 +1379,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@MarkForster',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['abschalten', 'unterhalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['abschalten', 'unterhalten'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
   {
     id: 'ufo361',
@@ -1392,7 +1392,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Ufo361',
     color: '#111827',
     secondaryColor: '#1f2937',
-    tags: { energy: ['aktiv', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
 
   // ── Entertainment / Challenges ─────────────────────────────────────────────
@@ -1407,7 +1407,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Julienco',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'leon-machere',
@@ -1420,7 +1420,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@LeonMachere',
     color: '#111827',
     secondaryColor: '#374151',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment'], stil: ['clips'] },
   },
   {
     id: 'apored',
@@ -1433,7 +1433,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@ApoRed',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'die-lochis',
@@ -1446,7 +1446,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@DieLochis',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'tomatolix',
@@ -1459,7 +1459,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Tomatolix',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'freshtorge',
@@ -1472,7 +1472,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Freshtorge',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'icrimax',
@@ -1485,7 +1485,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@iCrimax',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'julia-beautx',
@@ -1498,7 +1498,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@JuliaBeautx',
     color: '#db2777',
     secondaryColor: '#be185d',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'lisha-lou',
@@ -1511,7 +1511,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@LishaLou',
     color: '#e11d48',
     secondaryColor: '#be123c',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
 
   // ── Sport ──────────────────────────────────────────────────────────────────
@@ -1526,7 +1526,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@FCBayern',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['aktiv', 'couch'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'bvb',
@@ -1539,7 +1539,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@BVB',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['aktiv', 'couch'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'dfb',
@@ -1552,7 +1552,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@DFB',
     color: '#1d4ed8',
     secondaryColor: '#1e40af',
-    tags: { energy: ['aktiv', 'couch'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'bayer-leverkusen',
@@ -1565,7 +1565,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Bayer04Leverkusen',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['aktiv', 'couch'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], stil: ['clips', 'schauen'] },
   },
 
   // ── Nachrichten / Öffentlich-Rechtliche ───────────────────────────────────
@@ -1580,7 +1580,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@tagesschau',
     color: '#1d4ed8',
     secondaryColor: '#1e40af',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen'], format: ['doku', 'talk'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen'], format: ['doku', 'talk'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'zdf',
@@ -1593,7 +1593,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@ZDF',
     color: '#1d4ed8',
     secondaryColor: '#1e40af',
-    tags: { energy: ['fokus', 'couch'], goal: ['lernen', 'unterhalten'], format: ['doku', 'entertainment'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'unterhalten'], format: ['doku', 'entertainment'], stil: ['schauen'] },
   },
   {
     id: 'ard',
@@ -1606,7 +1606,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@ARD',
     color: '#1d4ed8',
     secondaryColor: '#1e40af',
-    tags: { energy: ['fokus', 'couch'], goal: ['lernen', 'unterhalten'], format: ['doku', 'entertainment'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'unterhalten'], format: ['doku', 'entertainment'], stil: ['schauen'] },
   },
   {
     id: 'extra3',
@@ -1619,7 +1619,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@extra3',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['unterhalten', 'lernen'], format: ['entertainment', 'doku'], time: ['kurz'] },
+    tags: { thema: ['news'], goal: ['unterhalten', 'lernen'], format: ['entertainment', 'doku'], stil: ['clips', 'schauen'] },
   },
 
   // ── Bildung / Schule ───────────────────────────────────────────────────────
@@ -1634,7 +1634,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@simpleclub',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['fokus'], goal: ['lernen'], format: ['tutorial'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen'], format: ['tutorial'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'lehrer-schmidt',
@@ -1647,7 +1647,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@LehrerSchmidt',
     color: '#2563eb',
     secondaryColor: '#1d4ed8',
-    tags: { energy: ['fokus'], goal: ['lernen'], format: ['tutorial'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen'], format: ['tutorial'], stil: ['clips', 'schauen'] },
   },
 
   // ── Automotive ─────────────────────────────────────────────────────────────
@@ -1662,7 +1662,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@AUTOBILD',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'unterhalten'], format: ['doku', 'tutorial'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'unterhalten'], format: ['doku', 'tutorial'], stil: ['schauen'] },
   },
   {
     id: 'motorvision',
@@ -1675,7 +1675,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@motorvision',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['aktiv', 'couch'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], stil: ['schauen'] },
   },
   {
     id: 'grip',
@@ -1688,7 +1688,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@GRIP',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['aktiv', 'couch'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
 
   // ── Kochen / Food ──────────────────────────────────────────────────────────
@@ -1703,7 +1703,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Chefkoch',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['aktiv', 'couch'], goal: ['lernen', 'abschalten'], format: ['tutorial'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['kultur'], goal: ['lernen', 'abschalten'], format: ['tutorial'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'felicitas-then',
@@ -1716,7 +1716,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@FelicitasThen',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['aktiv', 'couch'], goal: ['lernen', 'abschalten'], format: ['tutorial'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['kultur'], goal: ['lernen', 'abschalten'], format: ['tutorial'], stil: ['clips', 'schauen'] },
   },
 
   // ── Comedy / Unterhaltung ──────────────────────────────────────────────────
@@ -1731,7 +1731,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@OliverPocher',
     color: '#d97706',
     secondaryColor: '#b45309',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment', 'talk'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment', 'talk'], stil: ['nebenbei'] },
   },
   {
     id: 'kaya-yanar',
@@ -1744,7 +1744,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@KayaYanar',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'joko-klaas',
@@ -1757,7 +1757,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@JokoKlaas',
     color: '#111827',
     secondaryColor: '#374151',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'tahnee',
@@ -1770,7 +1770,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Tahnee',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
 
   // ── Reisen / Outdoor ───────────────────────────────────────────────────────
@@ -1785,7 +1785,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@WeltDerWunder',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['doku'], time: ['mittel', 'lang'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku'], stil: ['schauen', 'deepdive'] },
   },
   {
     id: 'dw-deutsch',
@@ -1798,7 +1798,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@DWDeutsch',
     color: '#1d4ed8',
     secondaryColor: '#1e40af',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen', 'inspiriert'], format: ['doku', 'talk'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku', 'talk'], stil: ['nebenbei', 'schauen'] },
   },
   {
     id: 'pietsmiet-vlog',
@@ -1811,7 +1811,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@miriandmore',
     color: '#db2777',
     secondaryColor: '#be185d',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'pietrus',
@@ -1824,7 +1824,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@pietrus',
     color: '#6b7280',
     secondaryColor: '#4b5563',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips', 'nebenbei'] },
   },
   {
     id: 'vince-the-prince',
@@ -1837,7 +1837,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@VinceThePrince',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['aktiv'], goal: ['lernen', 'inspiriert'], format: ['tutorial', 'talk'], time: ['mittel'] },
+    tags: { thema: ['kultur'], goal: ['lernen', 'inspiriert'], format: ['tutorial', 'talk'], stil: ['nebenbei', 'schauen'] },
   },
   {
     id: 'pietsmietclips',
@@ -1850,7 +1850,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@PietroLombardi',
     color: '#db2777',
     secondaryColor: '#be185d',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
 
   // ── Nindo Top 100 – fehlende Kanäle ───────────────────────────────────────
@@ -1865,7 +1865,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@julesboringlife',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'vlad-und-niki',
@@ -1878,7 +1878,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@VladandNikiDeutsch',
     color: '#2563eb',
     secondaryColor: '#1d4ed8',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips'] },
   },
   {
     id: 'ak-ausserkontrolle',
@@ -1891,7 +1891,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@AKAusserkontrolle',
     color: '#111827',
     secondaryColor: '#374151',
-    tags: { energy: ['aktiv', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
   {
     id: 'doktor-light',
@@ -1904,7 +1904,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@DoktorLight',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'jules-der-zweite',
@@ -1917,7 +1917,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@JulesderII',
     color: '#6d28d9',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'martinbepunkt',
@@ -1930,7 +1930,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@MartinBepunkt',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen', 'inspiriert'], format: ['tutorial', 'doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['tutorial', 'doku'], stil: ['schauen'] },
   },
   {
     id: 'jindaouis',
@@ -1943,7 +1943,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Jindaouis',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'heymoritz',
@@ -1956,7 +1956,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@HeyMoritz',
     color: '#8b5cf6',
     secondaryColor: '#7c3aed',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'ungeskriptet-ben',
@@ -1969,7 +1969,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@ungeskriptetbyBen',
     color: '#6b7280',
     secondaryColor: '#4b5563',
-    tags: { energy: ['couch', 'fokus'], goal: ['unterhalten', 'inspiriert'], format: ['talk'], time: ['lang'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'inspiriert'], format: ['talk'], stil: ['nebenbei', 'schauen', 'deepdive'] },
   },
   {
     id: 'kmngang',
@@ -1982,7 +1982,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@KMNGANG',
     color: '#111827',
     secondaryColor: '#1f2937',
-    tags: { energy: ['aktiv', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
   {
     id: 'zdf-heute-show',
@@ -1995,7 +1995,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@heuteshow',
     color: '#1d4ed8',
     secondaryColor: '#1e40af',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'lernen'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['unterhalten', 'lernen'], format: ['entertainment'], stil: ['clips'] },
   },
   {
     id: 'tetesept',
@@ -2008,7 +2008,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@tetesept',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch'], goal: ['abschalten', 'inspiriert'], format: ['tutorial', 'entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['kultur'], goal: ['abschalten', 'inspiriert'], format: ['tutorial', 'entertainment'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'sashka',
@@ -2021,7 +2021,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Sashka',
     color: '#db2777',
     secondaryColor: '#be185d',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'herrdavid',
@@ -2034,7 +2034,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@HerrDavid',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips', 'nebenbei'] },
   },
   {
     id: '2-bored-guys',
@@ -2047,7 +2047,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@2BoredGuys',
     color: '#6b7280',
     secondaryColor: '#4b5563',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'dave',
@@ -2060,7 +2060,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@DAVEofficial',
     color: '#111827',
     secondaryColor: '#374151',
-    tags: { energy: ['aktiv', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
   {
     id: 'stonedeafproduction',
@@ -2073,7 +2073,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Stonedeafproduction',
     color: '#374151',
     secondaryColor: '#1f2937',
-    tags: { energy: ['aktiv', 'fokus', 'nebenbei'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], stil: ['clips', 'nebenbei', 'schauen', 'deepdive'] },
   },
   {
     id: 'arda-saatci',
@@ -2086,7 +2086,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@ArdaSaatci',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips'] },
   },
   {
     id: 'marcant',
@@ -2099,7 +2099,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@marcant',
     color: '#374151',
     secondaryColor: '#1f2937',
-    tags: { energy: ['couch', 'aktiv'], goal: ['inspiriert', 'unterhalten'], format: ['entertainment', 'tutorial'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['inspiriert', 'unterhalten'], format: ['entertainment', 'tutorial'], stil: ['schauen'] },
   },
   {
     id: 'osttirol-berg-tirol',
@@ -2112,7 +2112,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@OsttirolBergTirol',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['aktiv', 'couch'], goal: ['inspiriert', 'abschalten'], format: ['doku', 'entertainment'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['inspiriert', 'abschalten'], format: ['doku', 'entertainment'], stil: ['schauen'] },
   },
   {
     id: 'jay-riddle',
@@ -2125,7 +2125,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@JayRiddle',
     color: '#1f2937',
     secondaryColor: '#111827',
-    tags: { energy: ['fokus', 'couch'], goal: ['unterhalten', 'lernen'], format: ['doku'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'lernen'], format: ['doku'], stil: ['schauen', 'deepdive'] },
   },
   {
     id: 'hypnotize-entertainment',
@@ -2138,7 +2138,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@HypnotizeEntertainment',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'ein-kopfholz',
@@ -2151,7 +2151,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@einKopfholz',
     color: '#92400e',
     secondaryColor: '#78350f',
-    tags: { energy: ['couch'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips'] },
   },
   {
     id: 'emiirbayrak',
@@ -2164,7 +2164,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Emiirbayrak',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'rinos',
@@ -2177,7 +2177,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Rinos',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'tom-supreme',
@@ -2190,7 +2190,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@TomSupreme',
     color: '#374151',
     secondaryColor: '#111827',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['inspiriert', 'unterhalten'], format: ['entertainment', 'tutorial'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['kultur'], goal: ['inspiriert', 'unterhalten'], format: ['entertainment', 'tutorial'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'robert-marc-lehmann',
@@ -2203,7 +2203,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@RobertMarcLehmann',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen', 'inspiriert'], format: ['doku'], time: ['mittel', 'lang'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku'], stil: ['schauen', 'deepdive'] },
   },
   {
     id: 'daniel-ngl',
@@ -2216,7 +2216,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@DanielNgl',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'bastighg',
@@ -2229,7 +2229,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@BastiGHG',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['deepdive'] },
   },
   {
     id: 'ein-holzkopf',
@@ -2242,7 +2242,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@einHolzkopf',
     color: '#92400e',
     secondaryColor: '#78350f',
-    tags: { energy: ['couch'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips'] },
   },
   {
     id: 'laserluca',
@@ -2255,7 +2255,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@laserluca',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'marvin',
@@ -2268,7 +2268,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@MarvinYT',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'omid-mouazzen',
@@ -2281,7 +2281,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@OmidMouazzen',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'lewinray',
@@ -2294,7 +2294,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Lewinray',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'abk',
@@ -2307,7 +2307,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@ABKofficial',
     color: '#111827',
     secondaryColor: '#374151',
-    tags: { energy: ['aktiv', 'nebenbei'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
   {
     id: 'joeys-jungle',
@@ -2320,7 +2320,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@JoeysJungle',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'fokus'], goal: ['lernen', 'unterhalten'], format: ['doku', 'entertainment'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'unterhalten'], format: ['doku', 'entertainment'], stil: ['schauen'] },
   },
   {
     id: 'need-to-know',
@@ -2333,7 +2333,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@NeedToKnowDE',
     color: '#2563eb',
     secondaryColor: '#1d4ed8',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen'], format: ['doku'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['lernen'], format: ['doku'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'jessie-bluegrey',
@@ -2346,7 +2346,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@JessieBluegrey',
     color: '#6b7280',
     secondaryColor: '#4b5563',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'hey-aaron',
@@ -2359,7 +2359,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@HeyAaron',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'papaplatte-gaming',
@@ -2372,7 +2372,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@PapaplatteGaming',
     color: '#6d28d9',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['lang', 'egal'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'berge-und-meer',
@@ -2385,7 +2385,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@BergeUndMeer',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'aktiv'], goal: ['inspiriert', 'abschalten'], format: ['doku', 'entertainment'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['inspiriert', 'abschalten'], format: ['doku', 'entertainment'], stil: ['schauen'] },
   },
   {
     id: 'ehrenpflaume',
@@ -2398,7 +2398,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@EHRENPFLAUME',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips'] },
   },
   {
     id: 'aggu31',
@@ -2411,7 +2411,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@aggu31',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['aktiv', 'couch'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips', 'deepdive'] },
   },
   {
     id: 'tamaris',
@@ -2424,7 +2424,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Tamaris',
     color: '#db2777',
     secondaryColor: '#be185d',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['inspiriert', 'unterhalten'], format: ['entertainment', 'tutorial'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['alltag'], goal: ['inspiriert', 'unterhalten'], format: ['entertainment', 'tutorial'], stil: ['clips', 'nebenbei', 'schauen'] },
   },
   {
     id: 'mexify',
@@ -2437,7 +2437,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Mexify',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['deepdive'] },
   },
   {
     id: 'survivalmattin',
@@ -2450,7 +2450,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@SurvivalMattin',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['tutorial', 'doku'], time: ['mittel', 'lang'] },
+    tags: { thema: ['alltag'], goal: ['lernen', 'inspiriert'], format: ['tutorial', 'doku'], stil: ['schauen', 'deepdive'] },
   },
   {
     id: 'hans-maggi',
@@ -2463,7 +2463,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@HansMaggi',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['lang', 'egal'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'bulien-jam',
@@ -2476,7 +2476,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@BulienJam',
     color: '#d97706',
     secondaryColor: '#b45309',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'leonine-studios',
@@ -2489,7 +2489,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@LEONINEStudios',
     color: '#111827',
     secondaryColor: '#1f2937',
-    tags: { energy: ['couch', 'fokus'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'yow-mohi',
@@ -2502,7 +2502,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@YowMohi',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'sandro-hartmann',
@@ -2515,7 +2515,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@SandroHartmann',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], stil: ['schauen'] },
   },
   {
     id: 'the-real-life-guys',
@@ -2528,7 +2528,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@TheRealLifeGuys',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['inspiriert', 'unterhalten'], format: ['doku', 'entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['kultur'], goal: ['inspiriert', 'unterhalten'], format: ['doku', 'entertainment'], stil: ['schauen', 'deepdive'] },
   },
   {
     id: 'timo-leukefeld',
@@ -2541,7 +2541,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@TimoLeukefeld',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen', 'inspiriert'], format: ['tutorial', 'doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['tutorial', 'doku'], stil: ['schauen'] },
   },
   {
     id: 'luca-dante-spadafora',
@@ -2554,7 +2554,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@LucaDanteSpadafora',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['aktiv', 'couch'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], time: ['mittel'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment', 'doku'], stil: ['schauen'] },
   },
   {
     id: 'seltix',
@@ -2567,7 +2567,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@SELTIX',
     color: '#374151',
     secondaryColor: '#1f2937',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'viscabarca',
@@ -2580,7 +2580,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@ViscaBarca',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['aktiv', 'couch'], goal: ['unterhalten', 'lernen'], format: ['entertainment', 'doku'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'lernen'], format: ['entertainment', 'doku'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'hungriger-hugo',
@@ -2593,7 +2593,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@HungrigerHugo',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'blackroll',
@@ -2606,7 +2606,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@BLACKROLL',
     color: '#111827',
     secondaryColor: '#374151',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'inspiriert'], format: ['tutorial'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['kultur'], goal: ['lernen', 'inspiriert'], format: ['tutorial'], stil: ['clips', 'schauen'] },
   },
   {
     id: 'eliasn97',
@@ -2619,7 +2619,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@EliasN97',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'abugoku',
@@ -2632,7 +2632,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@AbuGoku',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['deepdive'] },
   },
   {
     id: 'bennart',
@@ -2645,7 +2645,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@bennart',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'inspiriert'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'crhyme-tv',
@@ -2658,7 +2658,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@CrhymeTV',
     color: '#111827',
     secondaryColor: '#1f2937',
-    tags: { energy: ['aktiv', 'fokus'], goal: ['lernen', 'unterhalten'], format: ['talk', 'entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['kultur', 'alltag'], goal: ['lernen', 'unterhalten'], format: ['talk', 'entertainment'], stil: ['nebenbei', 'schauen', 'deepdive'] },
   },
   {
     id: 'plankton',
@@ -2671,7 +2671,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@PlanktonYT',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'cornelius',
@@ -2684,7 +2684,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@CorneliusYT',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'giraffenaffen-tv',
@@ -2697,7 +2697,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@GiraffenaffenTV',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['couch'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips'] },
   },
   {
     id: 'mono-inc',
@@ -2710,7 +2710,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@MONOINC',
     color: '#1f2937',
     secondaryColor: '#111827',
-    tags: { energy: ['aktiv', 'fokus', 'nebenbei'], goal: ['abschalten', 'inspiriert'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['abschalten', 'inspiriert'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'schauen', 'deepdive'] },
   },
   {
     id: 'satter-hugo',
@@ -2723,7 +2723,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@SatterHugo',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['kultur'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'elif-sima',
@@ -2736,7 +2736,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@ElifSima',
     color: '#db2777',
     secondaryColor: '#be185d',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'inspiriert'], format: ['tutorial', 'entertainment'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'inspiriert'], format: ['tutorial', 'entertainment'], stil: ['nebenbei', 'schauen'] },
   },
   {
     id: 'unsympathisch-tv',
@@ -2749,7 +2749,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@unsympathischTV',
     color: '#374151',
     secondaryColor: '#1f2937',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips'] },
   },
   {
     id: 'marcant-voll',
@@ -2762,7 +2762,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@MarcantVoll',
     color: '#374151',
     secondaryColor: '#1f2937',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'manfred-baumann',
@@ -2775,7 +2775,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@ManfredBaumann',
     color: '#6b7280',
     secondaryColor: '#4b5563',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen', 'inspiriert'], format: ['tutorial', 'doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['tutorial', 'doku'], stil: ['schauen'] },
   },
   {
     id: 'handoftrash',
@@ -2788,7 +2788,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@HandOfTrash',
     color: '#be123c',
     secondaryColor: '#9f1239',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'gebrueder-lange',
@@ -2801,7 +2801,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@GebruederLange',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['aktiv', 'couch'], goal: ['inspiriert', 'unterhalten'], format: ['doku', 'entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['alltag'], goal: ['inspiriert', 'unterhalten'], format: ['doku', 'entertainment'], stil: ['schauen', 'deepdive'] },
   },
   {
     id: 'schlumpf',
@@ -2814,7 +2814,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@SchlumpfYT',
     color: '#2563eb',
     secondaryColor: '#1d4ed8',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'dunkle-parabelritter',
@@ -2827,7 +2827,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@DerDunkleParabelritter',
     color: '#374151',
     secondaryColor: '#1f2937',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen', 'unterhalten'], format: ['doku', 'entertainment'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['lernen', 'unterhalten'], format: ['doku', 'entertainment'], stil: ['schauen'] },
   },
   {
     id: 'eule-vevo',
@@ -2840,7 +2840,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@EuleVEVO',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['abschalten', 'inspiriert'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['abschalten', 'inspiriert'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
   {
     id: 'eure-videos-fahrnuenftig',
@@ -2853,7 +2853,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@EureVideosFahrnuenftig',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'lernen'], format: ['entertainment', 'doku'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['unterhalten', 'lernen'], format: ['entertainment', 'doku'], stil: ['clips', 'nebenbei', 'schauen'] },
   },
   {
     id: 'santiago-ziesmer',
@@ -2866,7 +2866,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@SantiagoZiesmer',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'lernen'], format: ['entertainment', 'talk'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'lernen'], format: ['entertainment', 'talk'], stil: ['clips'] },
   },
   {
     id: 'hakim-lokman',
@@ -2879,7 +2879,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@HakimLokman',
     color: '#ea580c',
     secondaryColor: '#c2410c',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel'] },
+    tags: { thema: ['alltag'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei'] },
   },
   {
     id: 'mehlix',
@@ -2892,7 +2892,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Mehlix',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['deepdive'] },
   },
   {
     id: 'was-kostet-die-welt',
@@ -2905,7 +2905,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@WasKostetDieWelt',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen', 'inspiriert'], format: ['doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['doku'], stil: ['schauen'] },
   },
   {
     id: 'cyrad',
@@ -2918,7 +2918,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Cyrad',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen', 'unterhalten'], format: ['tutorial', 'entertainment'], time: ['mittel'] },
+    tags: { thema: ['lachen'], goal: ['lernen', 'unterhalten'], format: ['tutorial', 'entertainment'], stil: ['schauen'] },
   },
   {
     id: 'dashcam-drivers-germany',
@@ -2931,7 +2931,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@DashcamDriversGermany',
     color: '#374151',
     secondaryColor: '#1f2937',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['news'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips', 'nebenbei'] },
   },
   {
     id: 'sprichklartext',
@@ -2944,7 +2944,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@SprichKLARTEXT',
     color: '#dc2626',
     secondaryColor: '#b91c1c',
-    tags: { energy: ['fokus', 'aktiv'], goal: ['lernen', 'inspiriert'], format: ['talk', 'doku'], time: ['mittel'] },
+    tags: { thema: ['news'], goal: ['lernen', 'inspiriert'], format: ['talk', 'doku'], stil: ['nebenbei', 'schauen'] },
   },
   {
     id: 'avivehd',
@@ -2957,7 +2957,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@AviveHD',
     color: '#7c3aed',
     secondaryColor: '#5b21b6',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['mittel', 'lang'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['nebenbei', 'deepdive'] },
   },
   {
     id: 'mehnersmoos',
@@ -2970,7 +2970,7 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@Mehnersmoos',
     color: '#f59e0b',
     secondaryColor: '#d97706',
-    tags: { energy: ['couch', 'aktiv'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], time: ['kurz', 'mittel'] },
+    tags: { thema: ['lachen'], goal: ['unterhalten', 'abschalten'], format: ['entertainment'], stil: ['clips'] },
   },
   {
     id: 'folkshilfe-official',
@@ -2983,6 +2983,6 @@ export const channels: Channel[] = [
     url: 'https://www.youtube.com/@folkshilfe',
     color: '#0891b2',
     secondaryColor: '#0e7490',
-    tags: { energy: ['couch', 'nebenbei'], goal: ['abschalten', 'inspiriert'], format: ['entertainment'], time: ['kurz', 'egal'] },
+    tags: { thema: ['kultur'], goal: ['abschalten', 'inspiriert'], format: ['entertainment'], stil: ['clips', 'nebenbei', 'deepdive'] },
   },
 ]
