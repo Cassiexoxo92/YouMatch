@@ -1,79 +1,106 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef } from 'react'
 
 export default function CustomCursor() {
   const dotRef  = useRef<HTMLDivElement>(null)
   const ringRef = useRef<HTMLDivElement>(null)
-  const [visible, setVisible] = useState(false)
 
   useEffect(() => {
-    // Only on pointer-fine devices (desktop)
-    if (!window.matchMedia('(pointer: fine)').matches) return
-
     const dot  = dotRef.current
     const ring = ringRef.current
     if (!dot || !ring) return
 
-    setVisible(true)
-
-    let mx = -100, my = -100
-    let rx = -100, ry = -100
+    let mx = -200, my = -200
+    let rx = -200, ry = -200
     let rafId: number
+    let shown = false
+
+    const show = () => {
+      if (shown) return
+      shown = true
+      dot.style.opacity  = '1'
+      ring.style.opacity = '1'
+    }
 
     const onMove = (e: MouseEvent) => {
       mx = e.clientX
       my = e.clientY
+      show()
+    }
+
+    const onLeave = () => {
+      dot.style.opacity  = '0'
+      ring.style.opacity = '0'
+      shown = false
+    }
+
+    const onEnter = () => {
+      if (mx > -100) show()
     }
 
     const tick = () => {
-      rx += (mx - rx) * 0.14
-      ry += (my - ry) * 0.14
-      dot.style.transform  = `translate(${mx}px,${my}px) translate(-50%,-50%)`
-      ring.style.transform = `translate(${rx}px,${ry}px) translate(-50%,-50%)`
+      rx += (mx - rx) * 0.13
+      ry += (my - ry) * 0.13
+      dot.style.transform  = `translate(${mx}px, ${my}px) translate(-50%,-50%)`
+      ring.style.transform = `translate(${rx}px, ${ry}px) translate(-50%,-50%)`
       rafId = requestAnimationFrame(tick)
     }
 
-    window.addEventListener('mousemove', onMove, { passive: true })
+    document.addEventListener('mousemove',  onMove,  { passive: true })
+    document.addEventListener('mouseleave', onLeave, { passive: true })
+    document.addEventListener('mouseenter', onEnter, { passive: true })
     rafId = requestAnimationFrame(tick)
 
     return () => {
-      window.removeEventListener('mousemove', onMove)
+      document.removeEventListener('mousemove',  onMove)
+      document.removeEventListener('mouseleave', onLeave)
+      document.removeEventListener('mouseenter', onEnter)
       cancelAnimationFrame(rafId)
     }
   }, [])
 
-  if (!visible) return null
-
   return (
     <>
-      {/* Inner dot */}
+      {/* Dot */}
       <div
         ref={dotRef}
-        className="fixed top-0 left-0 pointer-events-none z-[9999]"
-        style={{
-          width: '8px',
-          height: '8px',
-          borderRadius: '50%',
-          background: 'linear-gradient(135deg,#FF3B3B,#7C3AED)',
-          boxShadow: '0 0 12px 2px rgba(255,59,59,0.6)',
-          willChange: 'transform',
-        }}
         aria-hidden="true"
+        style={{
+          position:      'fixed',
+          top:           0,
+          left:          0,
+          width:         '10px',
+          height:        '10px',
+          borderRadius:  '50%',
+          background:    'linear-gradient(135deg,#FF3B3B,#7C3AED)',
+          boxShadow:     '0 0 14px 3px rgba(255,59,59,0.55)',
+          pointerEvents: 'none',
+          zIndex:        99999,
+          opacity:       0,
+          willChange:    'transform,opacity',
+          transition:    'opacity 0.15s',
+        }}
       />
-      {/* Outer ring */}
+      {/* Lagging ring */}
       <div
         ref={ringRef}
-        className="fixed top-0 left-0 pointer-events-none z-[9998]"
-        style={{
-          width: '32px',
-          height: '32px',
-          borderRadius: '50%',
-          border: '1.5px solid rgba(124,58,237,0.5)',
-          boxShadow: '0 0 8px rgba(124,58,237,0.2)',
-          willChange: 'transform',
-        }}
         aria-hidden="true"
+        style={{
+          position:      'fixed',
+          top:           0,
+          left:          0,
+          width:         '34px',
+          height:        '34px',
+          borderRadius:  '50%',
+          border:        '1.5px solid rgba(124,58,237,0.55)',
+          boxShadow:     '0 0 8px rgba(124,58,237,0.18)',
+          pointerEvents: 'none',
+          zIndex:        99998,
+          opacity:       0,
+          willChange:    'transform,opacity',
+          transition:    'opacity 0.15s',
+        }}
       />
     </>
   )
