@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   robots: { index: false },
 }
 
-const VALID_THEMA  = ['lachen', 'news', 'kultur', 'alltag']
+const VALID_THEMA  = ['creator', 'media', 'artist', 'crew']
 const VALID_GOAL   = ['unterhalten', 'lernen', 'inspiriert', 'abschalten']
 const VALID_FORMAT = ['doku', 'talk', 'entertainment', 'tutorial']
 const VALID_STIL   = ['clips', 'nebenbei', 'schauen', 'deepdive']

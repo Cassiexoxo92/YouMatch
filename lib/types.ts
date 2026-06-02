@@ -1,10 +1,10 @@
-// Q1: Welches Thema zieht dich gerade an?
-export type ThemaOption = 'lachen' | 'news' | 'kultur' | 'alltag'
+// Q1: Welche Art von Creator möchtest du sehen?
+export type ThemaOption = 'creator' | 'media' | 'artist' | 'crew'
 
 // Q2: Was willst du aus dem Video mitnehmen?
 export type GoalOption = 'unterhalten' | 'lernen' | 'inspiriert' | 'abschalten'
 
-// Q3: Welches Format spricht dich an?
+// Q3: Welches Format passt gerade?
 export type FormatOption = 'doku' | 'talk' | 'entertainment' | 'tutorial'
 
 // Q4: Wie willst du YouTube gerade nutzen?

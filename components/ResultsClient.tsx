@@ -10,11 +10,11 @@ import ChannelCard from './ChannelCard'
 import Logo from './Logo'
 
 const ANSWER_META: Record<string, { label: string; color: string; bg: string; border: string }> = {
-  // Q1 — Thema
-  lachen:        { label: 'Gaming & Comedy',         color: '#FF6B6B', bg: 'rgba(255,107,107,0.08)', border: 'rgba(255,107,107,0.28)' },
-  news:          { label: 'Wissen & Gesellschaft',   color: '#60A5FA', bg: 'rgba(96,165,250,0.08)',  border: 'rgba(96,165,250,0.25)'  },
-  kultur:        { label: 'Musik, Sport & Kreativ',  color: '#F59E0B', bg: 'rgba(245,158,11,0.08)', border: 'rgba(245,158,11,0.28)'  },
-  alltag:        { label: 'Lifestyle & Persönliches',color: '#C084FC', bg: 'rgba(192,132,252,0.08)', border: 'rgba(192,132,252,0.25)' },
+  // Q1 — Thema (Creator Type)
+  creator:       { label: 'Einzelner YouTuber',      color: '#FF3B3B', bg: 'rgba(255,59,59,0.08)',   border: 'rgba(255,59,59,0.28)'   },
+  media:         { label: 'Redaktion & Medien',       color: '#60A5FA', bg: 'rgba(96,165,250,0.08)',  border: 'rgba(96,165,250,0.25)'  },
+  artist:        { label: 'Künstler & Performer',     color: '#F59E0B', bg: 'rgba(245,158,11,0.08)', border: 'rgba(245,158,11,0.28)'  },
+  crew:          { label: 'Gruppe & Kollektiv',       color: '#C084FC', bg: 'rgba(192,132,252,0.08)', border: 'rgba(192,132,252,0.25)' },
   // Q2 — Goal
   unterhalten:   { label: 'Unterhalten werden',      color: '#FF3B3B', bg: 'rgba(255,59,59,0.08)',   border: 'rgba(255,59,59,0.30)'   },
   lernen:        { label: 'Schlauer werden',         color: '#38BDF8', bg: 'rgba(56,189,248,0.08)', border: 'rgba(56,189,248,0.25)'  },
