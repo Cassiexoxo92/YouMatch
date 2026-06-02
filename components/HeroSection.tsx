@@ -6,10 +6,12 @@ import Link from 'next/link'
 import { ArrowRight, Sparkles } from 'lucide-react'
 import gsap from 'gsap'
 import Logo from './Logo'
+import { useVisitorCount } from '@/lib/useVisitorCount'
 
 export default function HeroSection() {
   const heroRef = useRef<HTMLDivElement>(null)
   const statsRef = useRef<HTMLDivElement>(null)
+  const visitorCount = useVisitorCount()
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -61,7 +63,7 @@ export default function HeroSection() {
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass border border-border mb-8 text-sm text-gray-300"
         >
           <Sparkles className="w-4 h-4 text-accent" aria-hidden="true" />
-          <span>100+ deutsche Creator · Kein Login · 100% kostenlos</span>
+          <span>200+ deutsche Creator · Kein Login · 100% kostenlos</span>
         </motion.div>
 
         {/* Logo / Headline */}
@@ -114,13 +116,14 @@ export default function HeroSection() {
         {/* Stats */}
         <div
           ref={statsRef}
-          className="grid grid-cols-3 gap-4 max-w-md mx-auto"
+          className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-xl mx-auto"
           aria-label="Statistiken"
         >
           {[
-            { value: '100+', label: 'Kanäle' },
+            { value: '200+', label: 'Kanäle' },
             { value: '4', label: 'Fragen' },
             { value: '∞', label: 'Matches' },
+            { value: visitorCount, label: 'Besucher' },
           ].map(({ value, label }) => (
             <div
               key={label}

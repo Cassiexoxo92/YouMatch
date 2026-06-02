@@ -119,7 +119,7 @@ export default function FeaturedCreators() {
                 {/* Creator item */}
                 <div className="flex items-baseline gap-2 px-6">
                   <span
-                    className="font-display font-bold text-sm tracking-widest uppercase whitespace-nowrap"
+                    className="font-display font-bold text-base md:text-lg tracking-widest uppercase whitespace-nowrap"
                     style={{
                       color: c.color,
                       textShadow: `0 0 20px ${c.color}50`,

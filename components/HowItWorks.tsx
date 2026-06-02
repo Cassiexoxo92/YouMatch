@@ -19,7 +19,7 @@ const steps = [
     number: '02',
     title: 'Algorithmus matcht',
     description:
-      'Unser Matching-System vergleicht deine Antworten mit über 100 Kanälen und berechnet deinen persönlichen Score.',
+      'Unser Matching-System vergleicht deine Antworten mit über 200 Kanälen und berechnet deinen persönlichen Score.',
     color: '#7C3AED',
   },
   {
