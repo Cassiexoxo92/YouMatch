@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { Space_Grotesk, Plus_Jakarta_Sans } from 'next/font/google'
 import './globals.css'
 import CustomCursor from '@/components/CustomCursor'
+import GlowLayer from '@/components/GlowLayer'
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -68,6 +69,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="de" className={`${spaceGrotesk.variable} ${plusJakarta.variable}`}>
       <body className="font-sans bg-bg text-white antialiased">
+        <GlowLayer />
         <CustomCursor />
         {children}
       </body>
