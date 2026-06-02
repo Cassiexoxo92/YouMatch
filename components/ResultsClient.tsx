@@ -41,7 +41,7 @@ export default function ResultsClient({ answers }: ResultsClientProps) {
   const answerValues = [answers.thema, answers.goal, answers.format, answers.stil]
 
   return (
-    <div className="min-h-screen bg-bg relative" role="main">
+    <div className="min-h-screen relative" role="main">
 
       {/* Background glows */}
       <div aria-hidden="true" style={{ position:'fixed', inset:0, zIndex:0, pointerEvents:'none', overflow:'hidden' }}>

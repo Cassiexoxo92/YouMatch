@@ -70,7 +70,7 @@ export default function QuizClient() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-bg relative" role="main">
+    <div className="min-h-screen flex flex-col relative" role="main">
       {/* Background dot grid */}
       <div className="fixed inset-0 dot-grid-bg opacity-25 pointer-events-none" aria-hidden="true" />
 
