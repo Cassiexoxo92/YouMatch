@@ -16,7 +16,8 @@ export default function KanalDerWoche() {
   const kanal     = getKanalDerWoche()
   const nextName  = getNextKanalName()
   const daysLeft  = daysUntilNextMonday()
-  const [imgError, setImgError] = useState(false)
+  const [imgError, setImgError]     = useState(false)
+  const [btnHover, setBtnHover]     = useState(false)
 
   // Date label for "diese Woche"
   const [weekLabel, setWeekLabel] = useState('')
@@ -188,24 +189,15 @@ export default function KanalDerWoche() {
                 href={kanal.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-200"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm"
                 style={{
-                  background: `${kanal.color}18`,
-                  border: `1px solid ${kanal.color}35`,
-                  color: kanal.color,
+                  background:  btnHover ? `${kanal.color}28` : `${kanal.color}18`,
+                  border:      `1px solid ${btnHover ? `${kanal.color}60` : `${kanal.color}35`}`,
+                  color:       kanal.color,
+                  transition:  'background 0.2s, border-color 0.2s',
                 }}
-                onMouseEnter={e => {
-                  const el = e.currentTarget as HTMLAnchorElement
-                  el.style.background  = `${kanal.color}28`
-                  el.style.borderColor = `${kanal.color}60`
-                  el.style.transform   = 'translateY(-1px)'
-                }}
-                onMouseLeave={e => {
-                  const el = e.currentTarget as HTMLAnchorElement
-                  el.style.background  = `${kanal.color}18`
-                  el.style.borderColor = `${kanal.color}35`
-                  el.style.transform   = 'translateY(0)'
-                }}
+                onMouseEnter={() => setBtnHover(true)}
+                onMouseLeave={() => setBtnHover(false)}
                 aria-label={`${kanal.name} auf YouTube öffnen`}
               >
                 Kanal besuchen
