@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from 'react'
 
-const BASE_COUNT = 8_247
-const STORAGE_KEY = 'ym_visit_count'
-const SESSION_KEY = 'ym_session_counted'
+const BASE_COUNT = 0
+// v2 key → resets all previous counts to 0
+const STORAGE_KEY = 'ym_visit_count_v2'
+const SESSION_KEY = 'ym_session_counted_v2'
 
 function formatCount(n: number): string {
   if (n >= 10_000) return `${(n / 1000).toFixed(1)}K`

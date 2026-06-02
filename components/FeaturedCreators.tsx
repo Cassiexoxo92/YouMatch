@@ -5,7 +5,7 @@ import { motion, useInView } from 'framer-motion'
 
 const creators = [
   { name: 'Jules', category: 'Entertainment', color: '#A78BFA' },
-  { name: 'Gronkh', category: 'Gaming', color: '#34D399' },
+  { name: 'Gronkh', category: 'Gaming', color: '#A78BFA' },
   { name: 'Capital Bra', category: 'Musik', color: '#F87171' },
   { name: 'Pamela Reif', category: 'Fitness', color: '#F472B6' },
   { name: 'Kurzgesagt', category: 'Bildung', color: '#60A5FA' },
@@ -13,7 +13,7 @@ const creators = [
   { name: 'Montana Black', category: 'Entertainment', color: '#FBBF24' },
   { name: 'Apache 207', category: 'Musik', color: '#818CF8' },
   { name: 'Rezo', category: 'Kommentar', color: '#C084FC' },
-  { name: 'MaiLab', category: 'Wissenschaft', color: '#4ADE80' },
+  { name: 'MaiLab', category: 'Wissenschaft', color: '#60A5FA' },
   { name: 'HandOfBlood', category: 'Gaming', color: '#F87171' },
   { name: 'MrWissen2go', category: 'Nachrichten', color: '#FCD34D' },
   { name: 'Julienco', category: 'Lifestyle', color: '#FB923C' },
@@ -22,7 +22,7 @@ const creators = [
   { name: 'FC Bayern', category: 'Sport', color: '#F87171' },
   { name: 'Fest & Flauschig', category: 'Podcast', color: '#38BDF8' },
   { name: 'Leon Machère', category: 'Entertainment', color: '#A78BFA' },
-  { name: 'Finanzfluss', category: 'Finanzen', color: '#4ADE80' },
+  { name: 'Finanzfluss', category: 'Finanzen', color: '#60A5FA' },
   { name: 'PietSmiet', category: 'Gaming', color: '#C084FC' },
   { name: 'Y-Kollektiv', category: 'Journalismus', color: '#818CF8' },
   { name: 'Tomatolix', category: 'Entertainment', color: '#F87171' },

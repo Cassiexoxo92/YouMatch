@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Custom cursor on pointer-fine devices */
+@media (pointer: fine) {
+  *, *::before, *::after { cursor: none !important; }
+}
+
 @layer base {
   :root {
     --color-bg: #0A0A0F;
