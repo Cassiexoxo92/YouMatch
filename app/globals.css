@@ -3,9 +3,14 @@
 @tailwind utilities;
 
 
-/* Custom cursor on pointer-fine devices */
+/* Custom cursor — nur auf Desktop (Maus/Stylus) */
 @media (pointer: fine) {
   *, *::before, *::after { cursor: none !important; }
+}
+
+/* Sterne auf Mobile ausblenden — zu viel GPU-Last */
+@media (max-width: 767px) {
+  .glow-star { display: none !important; }
 }
 
 @layer base {

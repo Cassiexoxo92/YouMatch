@@ -70,32 +70,9 @@ export default function QuizClient() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-bg relative overflow-hidden" role="main">
-
-      {/* ── Background ── */}
+    <div className="min-h-screen flex flex-col bg-bg relative" role="main">
+      {/* Background dot grid */}
       <div className="fixed inset-0 dot-grid-bg opacity-25 pointer-events-none" aria-hidden="true" />
-      <div
-        className="fixed pointer-events-none"
-        style={{
-          top: '-15%', left: '-10%',
-          width: '500px', height: '500px', borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(255,59,59,0.06) 0%, transparent 70%)',
-          filter: 'blur(70px)',
-          animation: 'orb-1 16s ease-in-out infinite',
-        }}
-        aria-hidden="true"
-      />
-      <div
-        className="fixed pointer-events-none"
-        style={{
-          bottom: '0%', right: '-5%',
-          width: '450px', height: '450px', borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(124,58,237,0.07) 0%, transparent 70%)',
-          filter: 'blur(70px)',
-          animation: 'orb-2 20s ease-in-out infinite',
-        }}
-        aria-hidden="true"
-      />
 
       {/* ── Header ── */}
       <header className="relative z-10 flex items-center justify-between px-4 sm:px-6 py-4 border-b border-border glass sticky top-0">
