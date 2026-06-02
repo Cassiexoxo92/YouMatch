@@ -10,6 +10,27 @@ import Logo from './Logo'
 
 const TOTAL = quizSteps.length
 
+function HighlightedQuestion({ question, keyWord }: { question: string; keyWord: string }) {
+  const idx = question.indexOf(keyWord)
+  if (idx === -1) return <>{question}</>
+  return (
+    <>
+      {question.slice(0, idx)}
+      <span
+        style={{
+          background: 'linear-gradient(135deg,#FF3B3B 0%,#FF6B6B 40%,#A78BFA 100%)',
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent',
+          backgroundClip: 'text',
+        }}
+      >
+        {keyWord}
+      </span>
+      {question.slice(idx + keyWord.length)}
+    </>
+  )
+}
+
 export default function QuizClient() {
   const router    = useRouter()
   const [step, setStep]       = useState(0)
@@ -157,7 +178,7 @@ export default function QuizClient() {
 
                 {/* Question */}
                 <h1 className="font-display font-black text-2xl sm:text-3xl md:text-4xl mb-3 text-balance text-white">
-                  {current.question}
+                  <HighlightedQuestion question={current.question} keyWord={current.keyWord} />
                 </h1>
 
                 {/* Subtitle */}

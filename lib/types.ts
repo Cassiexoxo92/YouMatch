@@ -37,6 +37,7 @@ export interface ScoredChannel extends Channel {
 export interface QuizStep {
   id: keyof QuizAnswers
   question: string
+  keyWord: string
   subtitle: string
   options: QuizOption[]
 }
