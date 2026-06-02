@@ -31,6 +31,13 @@ export default function Navigation() {
             Links
           </Link>
           <Link
+            href="/ikonen"
+            className="hidden sm:flex items-center gap-1.5 text-sm font-semibold transition-colors duration-200"
+            style={{ color: '#F59E0B' }}
+          >
+            ★ Ikonen
+          </Link>
+          <Link
             href="/quiz"
             className="btn-primary text-sm px-5 py-2.5 rounded-xl"
           >

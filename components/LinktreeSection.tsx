@@ -3,9 +3,17 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { ExternalLink, BarChart2, Youtube, Github, Info } from 'lucide-react'
+import { ExternalLink, BarChart2, Youtube, Github, Info, Star } from 'lucide-react'
 
 const links = [
+  {
+    href: '/ikonen',
+    icon: Star,
+    label: '★ YouTube Ikonen',
+    description: 'Die 10 deutschen Creator die YouTube geprägt haben — Hall of Fame.',
+    color: '#F59E0B',
+    featured: true,
+  },
   {
     href: 'https://nindo.de/charts',
     icon: BarChart2,
